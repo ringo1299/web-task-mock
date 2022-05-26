@@ -1,3 +1,6 @@
+use php;
+SET sql_mode = ALLOW_INVALID_DATES;
+
 -- drop table users; 
 create table users(
     id serial primary key
